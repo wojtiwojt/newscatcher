@@ -12,7 +12,7 @@ keywords = ["News", "RSS", "Scraping", "Data Mining"]
 [tool.poetry.dependencies]
 python = "^3.6"
 requests = "^2.23.0"
-feedparser = "^5.2.1"
+feedparser = "*"
 tldextract = "^2.2.2"
 
 [tool.poetry.dev-dependencies]
